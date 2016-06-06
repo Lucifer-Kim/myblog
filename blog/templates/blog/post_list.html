@@ -1,0 +1,48 @@
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DEV-LION's Log</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" href="{% static 'lib/pure-0.6.0/pure-min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gallery-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
+    <link rel="stylesheet" href="%{ static 'css/_base.css' %}">
+  </head>
+  <body>
+    <div class="header">
+      <div class="pure-menu pure-menu-horizontal">
+        <a class="pure-menu-heading" href="">DEV-LION LOG</a>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pure-g">
+        <div class="photo-box u-1 u-med-1-3 u-lrg-1-4">
+            <a href="http://www.dillonmcintosh.tumblr.com/">
+                <img src="http://24.media.tumblr.com/d6b9403c704c3e5aa1725c106e8a9430/tumblr_mvyxd9PUpZ1st5lhmo1_1280.jpg"
+                     alt="Beach">
+            </a>
+
+            <aside class="photo-box-caption">
+                <span>by <a href="http://www.dillonmcintosh.tumblr.com/">Dillon McIntosh</a></span>
+            </aside>
+        </div>
+    </div>
+
+    <div class="footer" "pure-horizontal">
+        <span><a href="mailto:minjiyang95@gmail.com"><img src="{% static "images/email-5-24.png" %}" alt="EMAIL"/></a>
+      <a href="kr.linkedin.com/in/minjiyang"><img src="{% static "images/linkedin-24.png" %}" alt="LINKEDIN"/></a>
+      <a href="https://github.com/Lucifer-Kim"><img src="{% static "images/github-11-24.png" %}" alt="GITHUB"/></a>
+      <a href="https://www.facebook.com/minji.yang.28"><img src="{% static "images/facebook-24.png" %}" alt="FACEBOOK"/></a>
+      <a href="https://www.instagram.com/lucifer__mj/"><img src="{% static "images/instagram-6-24.png" %}" alt="INSTAGRAM"></a>
+      <p>&copy; MINJI YANG</p></span>
+    </div>
+  </body>
+</html>
