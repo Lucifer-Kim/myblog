@@ -37,12 +37,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'disqus',
+    #'disqus',
     'blog',
 )
 
-DISQUS_API_KEY = 'Imiu7Am6vZFT6hEtjpUx6BN4WCbAt2i1ULfHXsnlBofsni0zO0CTLzHfL4isf4KA'
-DISQUS_WEBSITE_SHORTNAME = 'devlion'
+#DISQUS_API_KEY = 'Imiu7Am6vZFT6hEtjpUx6BN4WCbAt2i1ULfHXsnlBofsni0zO0CTLzHfL4isf4KA'
+#DISQUS_WEBSITE_SHORTNAME = 'devlion'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
