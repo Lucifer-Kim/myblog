@@ -6,6 +6,6 @@ def about(request):
     return render(request, 'blog/about.html', {})
 
 
-def post_list(request):
+def index(request):
     #posts = Post.objexts.filter(published_date__let=timezone.now()).order_by('published_date')
-    return render(request, 'blog/post_list.html', {})
+    return render(request, 'blog/index.html', {})
